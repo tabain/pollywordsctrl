@@ -6,7 +6,7 @@ var jobSchema = mongoose.Schema({
 });
 
 var Job = mongoose.model('Job', jobSchema);
-
+//create
 exports.seedJobs = function(){
     Job.find({}).exec(function(error, collection){
         
